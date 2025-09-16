@@ -11,7 +11,7 @@ let userEmail;
 
 const id = Symbol("123")
 const anotherId = Symbol("123")
-console.log(id ===anotherId)
+// console.log(id ===anotherId)
 
 // Refrence Types : (Non premitive dataypes)
 // Array , Object , Function
@@ -22,10 +22,25 @@ let person = {
 
 }
 const myFunc = function(){
-    console.log("Hi there")
+    // console.log("Hi there")
 }
-console.log(typeof heros)
+// console.log(typeof heros)
 
 //******************************Heap and Stack memory*****************************
-// Stack (Premitive ) ,  Heap (Non Premitive)
+// Stack (Premitive ) ,  Heap (Non Premitive)  
+
 let MyFullName  = "Ibrar Ali"
+let anOtherName = MyFullName
+anOtherName = "Ali Raza"
+console.log(anOtherName)
+console.log(MyFullName)
+
+//Heap Memory ( Non Premitive) 
+let userOne= {
+    email:"user@gmail.com",
+    payPal:"user@paypal"
+}
+let userTwo = userOne
+userTwo.email ="ibrar@gmail.com"
+console.log(userOne)
+console.log(userTwo)
