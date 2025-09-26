@@ -6,11 +6,11 @@
  accountEmail = "ibrar.ali@invobyte.com"
  accountPassword = "987"
  accountCity = "Lahore"
-
+ 
 /*
 Use of var is not recomended 
 because scope of var 
 */
  
  console.log(accountId)
- console.table([accountEmail , accountPassword  , accountCity , accountId ])
+ console.table([accountEmail , accountPassword  , accountCity , accountId ]) 
